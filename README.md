@@ -19,10 +19,10 @@ npm install --save-dev nodemon
 Cập nhật file `package.json` để sử dụng `nodemon` khi chạy server:
 
 ```json
-&quot;scripts&quot;: {
-  &quot;start&quot;: &quot;node index.js&quot;,
-  &quot;dev&quot;: &quot;nodemon index.js&quot;
-}
+"scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
 ```
 
 # 4. Tạo file `index.js`:
