@@ -1,5 +1,7 @@
 const axios = require('axios');
 
+
+
 const getStockQuote = async (symbol) => {
   try {
     const response = await axios.get(
